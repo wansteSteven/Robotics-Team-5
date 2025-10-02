@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://dh4yk5uumytna"]
+[gd_scene load_steps=3 format=3 uid="uid://dh4yk5uumytna"]
 
-[ext_resource type="PackedScene" uid="uid://chm1o220c3xtg" path="res://resources/models/untitled.blend" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://dylgt61tyxv3a" path="res://resources/models/play_Field_Part.blend" id="1_o5qli"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o5qli"]
+size = Vector3(27.387695, 1, 16.857971)
 
 [node name="main" type="Node3D"]
 
@@ -10,10 +13,16 @@ shadow_enabled = true
 
 [node name="playing_Floor" type="StaticBody3D" parent="."]
 
-[node name="untitled" parent="playing_Floor" instance=ExtResource("1_o5qli")]
+[node name="play_Field_Part" parent="playing_Floor" instance=ExtResource("1_o5qli")]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
 
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 16, 13.289091, 6)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="playing_Floor"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5415461, -1.9216003)
+shape = SubResource("BoxShape3D_o5qli")
 
-[node name="lighting" type="WorldEnvironment" parent="."]
+[node name="environment" type="Node3D" parent="."]
+
+[node name="top_Camera" type="Camera3D" parent="environment"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 10, 0)
+
+[node name="lighting" type="WorldEnvironment" parent="environment"]
