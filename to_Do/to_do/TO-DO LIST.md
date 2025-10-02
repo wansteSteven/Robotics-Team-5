@@ -1,0 +1,3 @@
+-Import all 3D models from blender to Godot
+-Design robot route & autonomous period
+-Learn parts of the robot
