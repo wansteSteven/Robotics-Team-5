@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "4437da3c3f11572a",
+    "id": "026d642baa38bf5e",
     "type": "split",
     "children": [
       {
-        "id": "d0fd6a24f307e913",
+        "id": "89b166f0a1b28d55",
         "type": "tabs",
         "children": [
           {
-            "id": "e263389b755b087a",
+            "id": "77286b4ed4a5b873",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bf2e15e441d24f94",
+    "id": "5a712b6fcd9a1f43",
     "type": "split",
     "children": [
       {
-        "id": "8e6b9f4eb26054dd",
+        "id": "95b0b39ba8a32626",
         "type": "tabs",
         "children": [
           {
-            "id": "0a0484ae3b582363",
+            "id": "153fed6778da893d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "8a9279440b85daa3",
+            "id": "1b5d2ed4e06d6cf3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "011a8ada2029cdda",
+            "id": "1119b0d53383e8a9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "a5481c1f37f85f82",
+    "id": "47c7c5ecaf12013b",
     "type": "split",
     "children": [
       {
-        "id": "8c6ffd9becfe888f",
+        "id": "9d47896fe167c08e",
         "type": "tabs",
         "children": [
           {
-            "id": "a220aef8a74851c8",
+            "id": "8ef4580d4386b386",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "2c53ee6c87b6fc24",
+            "id": "670b758a5de26f06",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "b84d224341b9c7bf",
+            "id": "bfe2b19f290bdc07",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +133,18 @@
             }
           },
           {
-            "id": "c29d2b427ab51918",
+            "id": "c107a0cf78a35461",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Welcome"
             }
           }
         ]
@@ -162,14 +165,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "e263389b755b087a",
+  "active": "77286b4ed4a5b873",
   "lastOpenFiles": [
-    "TO-DO LIST.md",
-    "Untitled.base",
-    "RULES.md",
-    "CONSTRAINS.md",
-    "ROUTE-PLAN.md",
-    "REQUIREMENTS.md",
+    "Notes.md",
+    "Pasted image 20251001224627.png",
+    "Pasted image 20251001224603.png",
+    "pictures/10.1.2025/cad.png",
+    "pictures/10.1.2025/github.png",
+    "pictures/10.1.2025/cad 1.png",
+    "pictures/10.1.2025/plan_learning.jpg",
+    "pictures/10.1.2025/godot.png",
+    "pictures/10.1.2025",
+    "pictures",
+    "WhatsApp Image 2025-10-01 at 22.37.30_de31988c 1.jpg",
+    "WhatsApp Image 2025-10-01 at 22.37.30_de31988c.jpg",
     "Welcome.md"
   ]
 }
