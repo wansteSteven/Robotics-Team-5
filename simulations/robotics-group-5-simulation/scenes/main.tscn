@@ -7,16 +7,12 @@ size = Vector3(27.387695, 1, 16.857971)
 
 [node name="main" type="Node3D"]
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
-shadow_enabled = true
-
 [node name="playing_Floor" type="StaticBody3D" parent="."]
 
 [node name="play_Field_Part" parent="playing_Floor" instance=ExtResource("1_o5qli")]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="playing_Floor"]
+[node name="floor_Collision" type="CollisionShape3D" parent="playing_Floor"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5415461, -1.9216003)
 shape = SubResource("BoxShape3D_o5qli")
 
@@ -26,3 +22,7 @@ shape = SubResource("BoxShape3D_o5qli")
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 10, 0)
 
 [node name="lighting" type="WorldEnvironment" parent="environment"]
+
+[node name="environment_Lighting" type="DirectionalLight3D" parent="environment"]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
