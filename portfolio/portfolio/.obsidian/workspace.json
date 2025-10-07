@@ -11,10 +11,12 @@
             "id": "79fc9752a4fb2c2a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "pictures/10.1.2025/CADPrototype.png"
+              },
+              "icon": "lucide-image",
+              "title": "CADPrototype"
             }
           }
         ]
@@ -167,17 +169,17 @@
   },
   "active": "79fc9752a4fb2c2a",
   "lastOpenFiles": [
+    "pictures/10.1.2025/cad 1.png",
+    "pictures/10.1.2025/cad.png",
     "pictures/10.1.2025/CADPrototype.png",
     "Idea & prototype.md",
     "Notes.md",
     "Untitled.canvas",
     "cad.png",
     "2025-10-06.md",
-    "pictures/10.1.2025/cad.png",
     "pictures/10.1.2025/plan_learning.jpg",
     "pictures/10.1.2025/godot.png",
     "pictures/10.1.2025/github.png",
-    "pictures/10.1.2025/cad 1.png",
     "Pasted image 20251001224603.png",
     "Pasted image 20251001224627.png",
     "pictures/10.1.2025",
