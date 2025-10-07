@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "89b166f0a1b28d55",
+        "id": "395f5061f621d80d",
         "type": "tabs",
         "children": [
           {
-            "id": "77286b4ed4a5b873",
+            "id": "79fc9752a4fb2c2a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "New tab"
             }
           }
         ]
@@ -169,16 +165,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "77286b4ed4a5b873",
+  "active": "79fc9752a4fb2c2a",
   "lastOpenFiles": [
-    "Pasted image 20251001224603.png",
+    "pictures/10.1.2025/CADPrototype.png",
+    "Idea & prototype.md",
     "Notes.md",
-    "Pasted image 20251001224627.png",
+    "Untitled.canvas",
+    "cad.png",
+    "2025-10-06.md",
     "pictures/10.1.2025/cad.png",
-    "pictures/10.1.2025/github.png",
-    "pictures/10.1.2025/cad 1.png",
     "pictures/10.1.2025/plan_learning.jpg",
     "pictures/10.1.2025/godot.png",
+    "pictures/10.1.2025/github.png",
+    "pictures/10.1.2025/cad 1.png",
+    "Pasted image 20251001224603.png",
+    "Pasted image 20251001224627.png",
     "pictures/10.1.2025",
     "pictures",
     "WhatsApp Image 2025-10-01 at 22.37.30_de31988c 1.jpg",

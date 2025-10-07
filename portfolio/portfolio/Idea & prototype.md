@@ -1,0 +1,1 @@
+	The starting idea for the robot is that it would drive only along the wall of the playfield. So that it would just follow a single route instead of complicated controls and programs.

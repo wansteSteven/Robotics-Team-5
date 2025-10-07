@@ -9,3 +9,5 @@
 
 ![[plan_learning.jpg]]
 -Steven's learning process on Java & game plan
+![[cad.png]]
+-Steven's learning on Libre CAD / Robot prototype
